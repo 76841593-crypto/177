@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTC — Autonomous Street Bin · Concept Design 2026</title>
+  <meta name="description" content="UTC is a concept study for an autonomous litter bin in Budapest: it sorts waste, empties itself at a hub, recharges and returns to its corner.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site_head" id="site_head">
+  <div class="head_in">
+    <div class="brand_grp">
+      <a class="brand" href="#top" aria-label="UTC home"><img src="images/logo_utc.svg" alt="UTC"></a>
+      <span class="brand_rule"></span>
+      <p class="head_meta">Autonomous street bin<br>Concept study · Budapest 2026</p>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#problem">The problem</a>
+      <a href="#object">The object</a>
+      <a href="#behaviour">Behaviour</a>
+      <a href="#rollout">Rollout</a>
+    </nav>
+  </div>
+  <div class="head_bar"><span id="head_bar"></span></div>
+</header>
+
+<main>
+  <section class="cover" id="top">
+    <div class="cover_plate">
+      <img src="images/hero_bin.svg" alt="The UTC bin standing in a studio, three quarter view">
+    </div>
+    <div class="cover_text">
+      <p class="cover_kick">Issue 01 — Street furniture</p>
+      <h1>
+        <span class="ln"><span>A street bin</span></span>
+        <span class="ln"><span>that takes</span></span>
+        <span class="ln"><span>itself out.</span></span>
+      </h1>
+      <p class="cover_sub">An autonomous litter bin. It sorts what you drop in, rolls to a hub when it is full, empties, recharges, then returns to its corner.</p>
+      <p class="cover_fig">Fig. 0.1 — Front view, 90 cm to the roof</p>
+    </div>
+  </section>
+
+  <div class="title_block">
+    <div class="tb_in">
+      <div class="tb_cell"><span>Drawing</span><p>UTC 001</p></div>
+      <div class="tb_cell"><span>Size</span><p>90 × 75 × 55 cm</p></div>
+      <div class="tb_cell"><span>Shift</span><p>05:00 — 23:00</p></div>
+      <div class="tb_cell"><span>Wheels</span><p>Four, two a side</p></div>
+    </div>
+  </div>
+
+  <section class="stats">
+    <div class="wrap stats_in">
+      <div class="stat_lead">
+        <p class="stat_num"><span data_count="341">341</span><em>kg</em></p>
+        <p class="stat_label">Waste that one person in Budapest produces every year. The city meets it with 14,000 public bins, and most of them are still the old green barrels.</p>
+      </div>
+      <dl class="stat_list">
+        <div class="stat_row">
+          <dt>Public bins in the city</dt>
+          <dd><span data_count="14000">14,000</span><em>11,300 run by BKM</em></dd>
+        </div>
+        <div class="stat_row">
+          <dt>Old bins swapped in the first year</dt>
+          <dd><span data_count="54">54</span><em>of a planned 9,000</em></dd>
+        </div>
+        <div class="stat_row">
+          <dt>Household waste collected separately</dt>
+          <dd><span data_count="17">17</span><em>per cent, 2023</em></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="sec problem" id="problem">
+    <div class="wrap">
+      <p class="lead">Budapest has a litter problem that visitors notice before residents do.</p>
+      <div class="prob_grid">
+        <div class="prob_left">
+          <figure class="plate prob_plate">
+            <img src="images/map_dirty.svg" alt="Map of Budapest with litter hotspots marked">
+          </figure>
+          <p class="cap">Fig. 1.1 — Litter hotspots reported in Budapest, 2025</p>
+        </div>
+        <div class="prob_right">
+          <p>In a 2025 survey the city was ranked the dirtiest in the world. The complaints are specific: too few bins on the street, bins that overflow, and a party district that is hard to hold together at weekends. The most common objects on the pavement are bottles, plastic packaging and cigarette ends.</p>
+          <p>BKM, the municipal company, runs 11,300 of the 14,000 bins in the city. It announced a five year programme to replace 9,000 worn green barrels with larger, stronger ones. One year after that announcement, 54 had been swapped.</p>
+          <p>Separated waste is still 17% of the total, although the deposit return scheme brings back 88.8% of bottles and cans. The habit is there. The street furniture is not.</p>
+          <p class="note">Figures from BKM and VG.hu, 2024 — 2025.</p>
+        </div>
+      </div>
+      <div class="hot_block">
+        <p class="hot_k">Ten streets that carry the complaint</p>
+        <ol class="hot">
+          <li>Népszínház Street</li>
+          <li>Keleti Pályaudvar</li>
+          <li>Szél Kálmán Square</li>
+          <li>Nyugati Pályaudvar</li>
+          <li>Mexikói Street</li>
+          <li>Party district</li>
+          <li>József Attila Arcades</li>
+          <li>Curia Street</li>
+          <li>Buda Castle</li>
+          <li>Sóház Street</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec idea">
+    <div class="wrap">
+      <blockquote class="big_quote">People drop things because walking to the bin costs more than the drop.</blockquote>
+      <div class="idea_two">
+        <div class="idea_a">
+          <p class="idea_k">The calculation</p>
+          <p>That is the utilitarian calculation, and it holds on almost every street in the city. Asking people to be less lazy is not a design brief. Making the bin worth walking to is.</p>
+        </div>
+        <div class="idea_b">
+          <p class="idea_k">The answer</p>
+          <p>So the object is not a container with a lid. It is a machine that answers back: it looks at you, opens, sorts what you give it, and leaves on its own when it is full. Cigarette ends are collected too, in a separate throat under the roof, because they are the most common thing on the pavement and they can be recycled.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="bodies">
+        <div class="body_row">
+          <p class="body_num">01</p>
+          <h3>The lid</h3>
+          <p>A box with a hinged cover. Familiar and cheap, but the hinge is the first thing to go, and a lid left open is worse than no bin at all.</p>
+        </div>
+        <div class="body_row">
+          <p class="body_num">02</p>
+          <h3>The hood</h3>
+          <p>A hood over a throat, the shape the old barrels already use. Rain stays out, but nothing in it says the object is awake.</p>
+        </div>
+        <div class="body_row">
+          <p class="body_num">03</p>
+          <h3>The cart</h3>
+          <p>The body we kept. A closed volume on four wheels, opening in the top face, all the senses gathered under the roof.</p>
+        </div>
+      </div>
+      <p class="cap">Fig. 2.1 — Three bodies we modelled before settling on the third.</p>
+    </div>
+  </section>
+
+  <section class="sec explorer" id="object">
+    <div class="wrap">
+      <h2>Four parts you can read from across the street.</h2>
+      <figure class="plate ex_plate">
+        <img src="images/object_bin.svg" alt="Rear three quarter view of the UTC bin, roof, opening and wheels">
+        <button class="pin is_active" data_pin="body" style="left:61%;top:56%" aria-label="Body">01</button>
+        <button class="pin" data_pin="head" style="left:77%;top:15%" aria-label="Head">02</button>
+        <button class="pin" data_pin="iris" style="left:67%;top:26%" aria-label="Iris">03</button>
+        <button class="pin" data_pin="wheel" style="left:72%;top:84%" aria-label="Wheels">04</button>
+      </figure>
+      <div class="ex_rows">
+        <div class="ex_item is_active" data_item="body">
+          <p class="ex_num">01</p>
+          <h3>Body</h3>
+          <p>One vertical volume, 90 × 75 × 55 cm, with softened corners and a shell of white plastic finished to read as marble. Nothing on it is decoration.</p>
+        </div>
+        <div class="ex_item" data_item="head">
+          <p class="ex_num">02</p>
+          <h3>Head</h3>
+          <p>The roof cantilevers forward and two lens rings sit underneath. This is the part that makes the object legible as a robot from thirty metres away.</p>
+        </div>
+        <div class="ex_item" data_item="iris">
+          <p class="ex_num">03</p>
+          <h3>Iris</h3>
+          <p>The opening is a camera iris, not a lid. It opens as a hand approaches and closes behind it, keeping rain, gulls and smell out.</p>
+        </div>
+        <div class="ex_item" data_item="wheel">
+          <p class="ex_num">04</p>
+          <h3>Wheels</h3>
+          <p>Four wheels, two per side, half hidden by the shell. Narrow enough for a pavement, stable enough for a kerb, and slow by design.</p>
+        </div>
+      </div>
+      <p class="cap">Fig. 3.1 — Unit 001, seen from the back left. Take the lens rings away and the object is a plain white box; the face is what does the work.</p>
+    </div>
+  </section>
+
+  <section class="iris">
+    <div class="iris_in">
+      <p class="iris_kick">05 — The opening</p>
+      <h2>An opening that behaves like an eye.</h2>
+      <div class="iris_cols">
+        <p>The lid is an iris diaphragm, borrowed from a camera. Nine blades close to a small hole and open to the full width of the throat.</p>
+        <p>It is the only moving part a person touches, so it is the only part we over-built: no hinge to bend, no flap to jam, nothing to force.</p>
+      </div>
+      <ul class="iris_specs">
+        <li><span>Opening</span>Ø 240 mm</li>
+        <li><span>At rest</span>Ø 40 mm</li>
+        <li><span>Blades</span>9</li>
+        <li><span>Cycle</span>0.4 s</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec behaviour" id="behaviour">
+    <div class="wrap">
+      <h2>It has four ways of looking at you.</h2>
+      <p class="sec_sub">Two lens rings and one light are enough for a person to understand what the bin wants, without reading anything.</p>
+      <div class="bh_tabs" role="tablist" aria-label="Bin states">
+        <div class="bh_ink" id="bh_ink"></div>
+        <button class="bh_tab is_active" data_state="standby" role="tab" aria-selected="true">Standby</button>
+        <button class="bh_tab" data_state="approach" role="tab" aria-selected="false">Approach</button>
+        <button class="bh_tab" data_state="scan" role="tab" aria-selected="false">Scanning</button>
+        <button class="bh_tab" data_state="accepted" role="tab" aria-selected="false">Feedback</button>
+      </div>
+      <div class="bh_body">
+        <div class="bh_copy">
+          <div class="bh_panel is_active" data_panel="standby">
+            <h3>Standby</h3>
+            <div class="bh_text">
+              <p>Idle on its corner, light at twenty percent. If nobody comes near for a few minutes it drifts a few metres to where people actually are, then waits again.</p>
+              <p class="bh_meta">Light — blue, slow pulse</p>
+            </div>
+          </div>
+          <div class="bh_panel" data_panel="approach">
+            <h3>Approach</h3>
+            <div class="bh_text">
+              <p>A person inside two metres. The light turns green and the iris starts to open before the hand arrives. This is the only invitation the object gives, and it is enough.</p>
+              <p class="bh_meta">Light — green, one breath</p>
+            </div>
+          </div>
+          <div class="bh_panel" data_panel="scan">
+            <h3>Scanning</h3>
+            <div class="bh_text">
+              <p>Something is dropped into the throat. A camera classifies it in half a second while the blades stay open; the rim runs orange until the decision is made.</p>
+              <p class="bh_meta">Light — orange, one sweep</p>
+            </div>
+          </div>
+          <div class="bh_panel" data_panel="accepted">
+            <h3>Feedback</h3>
+            <div class="bh_text">
+              <p>The item is tipped into one of two compartments and the light answers with a single green pulse. If it is in the wrong place, the roof screen says where it belongs.</p>
+              <p class="bh_meta">Light — green, single pulse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="day">
+    <div class="wrap">
+      <h2>Five in the morning until eleven at night.</h2>
+      <p class="sec_sub">The bin does not need the night shift. One daylight shift keeps the battery small and the streets quiet, and there is always a unit on station when the city wakes up.</p>
+      <div class="day_line" id="day_line">
+        <div class="day_track"></div>
+        <div class="day_fill" id="day_fill"></div>
+        <div class="day_stops">
+          <div class="day_stop">
+            <span class="day_dot"></span>
+            <p class="day_time">05:00</p>
+            <h4>Leaves the hub</h4>
+            <p>Full charge, bag empty, route loaded. The first stop is the square.</p>
+          </div>
+          <div class="day_stop">
+            <span class="day_dot"></span>
+            <p class="day_time">09:00</p>
+            <h4>Holds position</h4>
+            <p>Morning peak. It stays where the footfall is instead of walking a loop.</p>
+          </div>
+          <div class="day_stop">
+            <span class="day_dot"></span>
+            <p class="day_time">16:00</p>
+            <h4>Walks to a hub</h4>
+            <p>Full, or below a quarter of a charge. It picks the nearest free station, not the assigned one.</p>
+          </div>
+          <div class="day_stop">
+            <span class="day_dot"></span>
+            <p class="day_time">23:00</p>
+            <h4>Docked</h4>
+            <p>Emptied, compacted, charging. One supervisor clears the fault list for the zone.</p>
+          </div>
+        </div>
+      </div>
+      <div class="inside">
+        <div class="inside_head">
+          <h3>One camera, two answers.</h3>
+          <p>A camera sits at the throat above the blades. It reads shape and material, then a servo tips the item into the recyclable or the residual side. It never sees a face, only what a hand lets go of.</p>
+        </div>
+        <div class="inside_cols">
+          <div class="inside_col">
+            <span>Two streams</span>
+            <p>Two compartments are deliberate. More categories need more room than a pavement allows, and four wrong labels are worse than two right ones.</p>
+          </div>
+          <div class="inside_col">
+            <span>The mouth</span>
+            <p>Both bags hang from the same frame and lift out through the back. The opening stays at ninety centimetres, high enough that nobody has to bend to use it.</p>
+          </div>
+          <div class="inside_col">
+            <span>Compaction</span>
+            <p>Nothing is crushed inside the bin. The unit stays light, the bag is changed by a person at the hub, and the mechanism that could jam never sits on the street.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec refs">
+    <div class="wrap">
+      <h2>Three machines that already do part of this.</h2>
+      <div class="refs_list">
+        <article class="ref_row">
+          <p class="ref_idx">01</p>
+          <div class="ref_body">
+            <h3>Starship</h3>
+            <p class="ref_p">Six wheels, walking pace, remote supervision. Proof that small autonomous vehicles can share a pavement with people.</p>
+          </div>
+          <p class="ref_tag">Logistics</p>
+        </article>
+        <article class="ref_row">
+          <p class="ref_idx">02</p>
+          <div class="ref_body">
+            <h3>Ameru</h3>
+            <p class="ref_p">A camera sorts waste into four streams. We kept the sensing and replaced the moving flap, which is the part that fails.</p>
+          </div>
+          <p class="ref_tag">Sorting</p>
+        </article>
+        <article class="ref_row">
+          <p class="ref_idx">03</p>
+          <div class="ref_body">
+            <h3>Returning to base</h3>
+            <p class="ref_p">Service robots already go back to a base to empty and charge. The hub model is only new to waste.</p>
+          </div>
+          <p class="ref_tag">Service</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="field" id="rollout">
+    <div class="wrap">
+      <h2>The hard part is not the robot.</h2>
+      <p class="sec_sub">Three problems have nothing to do with the shape of the object and everything to do with whether it can exist on a street.</p>
+      <div class="field_grid">
+        <div class="field_col">
+          <p class="field_num">A</p>
+          <h3>Hubs</h3>
+          <p>No new buildings. Empty, abandoned or never finished buildings become hubs: emptying, charging, maintenance and high density compaction, with one supervisor for each zone.</p>
+        </div>
+        <div class="field_col">
+          <p class="field_num">B</p>
+          <h3>Work</h3>
+          <p>A bin cannot pick up litter. Street cleaning and collection stay as they are, emptying crews move over to cleaning, and new jobs appear in remote monitoring and support.</p>
+        </div>
+        <div class="field_col">
+          <p class="field_num">C</p>
+          <h3>Law</h3>
+          <p>Hungarian traffic law has no category for an autonomous street device. GDPR needs a lawful basis for camera data and the civil code applies strict liability to increased danger. Our answer: nothing recorded, faces and plates blurred on board, a hardware kill switch, soft bumpers, and a pilot under special permit.</p>
+        </div>
+      </div>
+      <p class="field_note">The first step is a proposal to the city council. Everything on this page is a concept: not built, not tested, not deployed.</p>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap">
+      <p class="close_statement">A bin that behaves like a machine and reads like a face. That is the whole idea, and it only works because the object is allowed to be a little strange.</p>
+      <div class="team">
+        <div class="team_block">
+          <p class="team_label">Concept design</p>
+          <p class="team_names">Fülöp-Sala Balázs<br>Henrique Ferreira<br>Duan Hongwei</p>
+        </div>
+        <div class="team_block">
+          <p class="team_label">Year</p>
+          <p class="team_names">2026<br>Budapest</p>
+        </div>
+        <div class="team_block team_block_wide">
+          <p class="team_label">Sources</p>
+          <p class="team_sources">
+            <a href="https://budapestikozmuvek.hu/" target="_blank" rel="noopener">budapestikozmuvek.hu</a>
+            <a href="https://www.vg.hu/" target="_blank" rel="noopener">vg.hu — bin replacement</a>
+            <a href="https://www.starship.xyz/" target="_blank" rel="noopener">starship.xyz</a>
+            <a href="https://ameru.ai/" target="_blank" rel="noopener">ameru.ai</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site_foot">
+  <p>©2026 UTC</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

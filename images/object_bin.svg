@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-label="Rear three quarter view of the UTC bin">
+  <defs>
+    <linearGradient id="b1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eef2ef"/>
+      <stop offset="100%" stop-color="#dfe5df"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="#ebeee9"/>
+  <g transform="translate(150 100)">
+    <path d="M195 120h426l134 86v321H90V215l105-95Z" fill="url(#b1)" stroke="#111" stroke-width="5"/>
+    <path d="M198 120l128-74h292l111 74" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M286 200h290v210H286z" fill="#f7f3ee" stroke="#111" stroke-width="4"/>
+    <circle cx="195" cy="523" r="70" fill="#f8f4ef" stroke="#111" stroke-width="5"/>
+    <circle cx="646" cy="523" r="70" fill="#f8f4ef" stroke="#111" stroke-width="5"/>
+    <circle cx="410" cy="523" r="70" fill="#f8f4ef" stroke="#111" stroke-width="5"/>
+    <circle cx="845" cy="523" r="70" fill="#f8f4ef" stroke="#111" stroke-width="5"/>
+    <circle cx="195" cy="523" r="18" fill="#111"/>
+    <circle cx="646" cy="523" r="18" fill="#111"/>
+    <circle cx="410" cy="523" r="18" fill="#111"/>
+    <circle cx="845" cy="523" r="18" fill="#111"/>
+    <circle cx="387" cy="216" r="18" fill="#111"/>
+    <circle cx="480" cy="216" r="18" fill="#111"/>
+    <circle cx="333" cy="295" r="48" fill="#dde6dd" stroke="#111" stroke-width="4"/>
+    <circle cx="486" cy="295" r="48" fill="#dde6dd" stroke="#111" stroke-width="4"/>
+    <path d="M160 120h490" stroke="#111" stroke-width="5"/>
+    <path d="M318 150h150" stroke="#111" stroke-width="5"/>
+  </g>
+</svg>

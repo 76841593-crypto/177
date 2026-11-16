@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Map of litter hotspots in Budapest">
+  <rect width="1200" height="900" fill="#e5e2dc"/>
+  <g fill="none" stroke="#114a3a" stroke-width="2" opacity="0.55">
+    <path d="M0 120h1200M0 260h1200M0 400h1200M0 540h1200M0 680h1200"/>
+    <path d="M120 0v900M300 0v900M480 0v900M660 0v900M840 0v900M1020 0v900"/>
+  </g>
+  <path d="M170 140c140-90 250 90 370 120 40 10 80 16 118 12 112-12 200-150 360-120 60 10 92 66 124 118v506H170V140Z" fill="#d8d3cb"/>
+  <path d="M202 630c120-28 188-102 230-188 82-170 137-215 252-185 124 33 180 148 288 184 62 19 117 14 147 12V760H202v-130Z" fill="#d3d8d0"/>
+  <g fill="#c44f3d" stroke="#7d2d13" stroke-width="2">
+    <circle cx="330" cy="270" r="18"/>
+    <circle cx="582" cy="334" r="18"/>
+    <circle cx="765" cy="423" r="18"/>
+    <circle cx="902" cy="552" r="18"/>
+    <circle cx="805" cy="182" r="18"/>
+    <circle cx="496" cy="546" r="18"/>
+    <circle cx="248" cy="488" r="18"/>
+    <circle cx="636" cy="670" r="18"/>
+    <circle cx="415" cy="710" r="18"/>
+    <circle cx="980" cy="306" r="18"/>
+  </g>
+  <g fill="#4d6c5e" font-family="Arial, sans-serif" font-size="26" font-weight="600">
+    <text x="216" y="268">1</text>
+    <text x="581" y="327">2</text>
+    <text x="767" y="417">3</text>
+    <text x="871" y="603">4</text>
+    <text x="793" y="176">5</text>
+    <text x="474" y="539">6</text>
+    <text x="206" y="500">7</text>
+    <text x="622" y="669">8</text>
+    <text x="388" y="733">9</text>
+    <text x="964" y="293">10</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#333">
+    <text x="100" y="760">Buda</text>
+    <text x="890" y="130">Danube</text>
+  </g>
+</svg>

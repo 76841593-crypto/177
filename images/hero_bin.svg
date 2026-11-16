@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-label="Autonomous street bin concept illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eae5df"/>
+      <stop offset="100%" stop-color="#d7e6e1"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f7f3ee"/>
+      <stop offset="100%" stop-color="#e3dfd8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="760" fill="url(#bg)"/>
+  <g opacity="0.7" stroke="#d7d1c8" stroke-width="2">
+    <path d="M80 620h860"/>
+    <path d="M140 640h720"/>
+  </g>
+  <g transform="translate(160 90)">
+    <rect x="170" y="130" width="330" height="360" rx="36" fill="url(#shell)" stroke="#111" stroke-width="3"/>
+    <path d="M120 182h110c15 0 28 12 28 28v246H92V210c0-15 12-28 28-28Z" fill="#f3efe9" stroke="#111" stroke-width="3"/>
+    <path d="M510 182h108c15 0 28 12 28 28v246H482V210c0-15 12-28 28-28Z" fill="#f3efe9" stroke="#111" stroke-width="3"/>
+    <path d="M155 142h390l78 40H80l75-40Z" fill="#f3efe9" stroke="#111" stroke-width="3"/>
+    <path d="M220 170h220c30 0 56 24 56 55v52H164v-52c0-31 26-55 56-55Z" fill="#ece4dc" stroke="#111" stroke-width="3"/>
+    <circle cx="220" cy="189" r="23" fill="#edf4f0" stroke="#111" stroke-width="3"/>
+    <circle cx="470" cy="189" r="23" fill="#edf4f0" stroke="#111" stroke-width="3"/>
+    <circle cx="270" cy="213" r="12" fill="#111"/>
+    <circle cx="420" cy="213" r="12" fill="#111"/>
+    <path d="M165 492h330" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <g fill="#f7f2ed" stroke="#111" stroke-width="4">
+      <circle cx="175" cy="540" r="46"/>
+      <circle cx="483" cy="540" r="46"/>
+      <circle cx="310" cy="540" r="46"/>
+      <circle cx="345" cy="540" r="46"/>
+    </g>
+    <g fill="#111">
+      <circle cx="175" cy="540" r="12"/>
+      <circle cx="483" cy="540" r="12"/>
+      <circle cx="310" cy="540" r="12"/>
+      <circle cx="345" cy="540" r="12"/>
+    </g>
+  </g>
+</svg>
